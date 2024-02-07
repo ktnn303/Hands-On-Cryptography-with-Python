@@ -1,6 +1,7 @@
 alpha =  "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 str_in = raw_input("Enter message, like HELLO: ")
+# shifting increases complexity 
 shift = int(raw_input("Shift value, like 3: "))
 
 n = len(str_in)
